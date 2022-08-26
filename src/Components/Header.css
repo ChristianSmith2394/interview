@@ -9,7 +9,7 @@
 
 .header__logo {
     width: 15%;
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 .header__nav {
@@ -22,10 +22,13 @@
 .nav__option {
     display: flex;
     justify-content: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
     padding: 1rem;
     width: 8%;
     background-color: green;
-    border: solid 2px black;
+    border: solid 2px white;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
 }
