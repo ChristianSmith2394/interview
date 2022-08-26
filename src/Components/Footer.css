@@ -3,13 +3,14 @@
     width: 100%;
     position: fixed;
     bottom: 0;
-    background-color: grey;
+    background-color: rgb(42, 42, 42);
     align-items: center;
     justify-content: center;
 }
 
 .footer__text {
     font-weight: bold;
+    color: white;
 }
 
 .footer__seal {
