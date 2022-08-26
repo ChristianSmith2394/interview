@@ -1,3 +1,7 @@
 .sidebar {
-    position: relative;
+    position: unset;
+    width: 15%;
+    border: solid 2px black;
+    background-color: whitesmoke;
+    margin-top: 11rem;
 }

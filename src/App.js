@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Homepage from './Pages/Homepage'
+import { Header, Footer, Sidebar } from './Components'
 
 function App() {
   return (
     <div className="App">
-      <Homepage />
+      <Header />
+      <Sidebar />
+      <Footer />
     </div>
   );
 }
