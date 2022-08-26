@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../photos/logo.gif'
-import { Link } from "react-router-dom"
 import './Header.css'
 
 function Header() {
