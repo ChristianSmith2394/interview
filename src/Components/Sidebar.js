@@ -6,39 +6,41 @@ function Sidebar() {
     <nav className="sidebar">
       <ul>
         Metadata
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
+        <li>Title</li>
+        <li>Revision History</li>
+        <li>Document Identifications</li>
+        <li>Roles</li>
+        <li>Locations</li>
+        <li>Parties</li>
+        <li>Responsible Parties</li>
       </ul>
       <ul>
         Import Profile
-        <li>x</li>
-        <li>y</li>
-        <li>z</li>
+        <li>Import Profile</li>
       </ul>
       <ul>
         System Characteristics
-        <li>x</li>
-        <li>y</li>
-        <li>z</li>
+        <li>System Identification</li>
+        <li>System Information Types</li>
+        <li>Security Impact Levels</li>
+        <li>Authorization Boundary & Data Flow</li>
       </ul>
       <ul>
         System Implementation
-        <li>x</li>
-        <li>y</li>
-        <li>z</li>
+        <li>Users</li>
+        <li>Components</li>
+        <li>Implemented Components</li>
+        <li>System Inventory</li>
+        <li>Remarks</li>
       </ul>
       <ul>
         Control Implementation
-        <li>x</li>
-        <li>y</li>
-        <li>z</li>
+        <li>Controls</li>
       </ul>
       <ul>
         Back Matter
-        <li>x</li>
-        <li>y</li>
-        <li>z</li>
+        <li>Citations</li>
+        <li>Resources</li>
       </ul>
     </nav>
   );
