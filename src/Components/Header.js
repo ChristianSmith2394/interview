@@ -12,19 +12,19 @@ function Header() {
         />
       <div className='header__nav'>
         <div className='nav__option'>
-          SSP
+          <a href="#">SSP</a>
         </div>
         <div className='nav__option'>
-          SAP
+        <a href="#">SAP</a>
         </div>
         <div className='nav__option'>
-          SAR
+        <a href="#">SAR</a>
         </div>
         <div className='nav__option'>
-          POAM
+        <a href="#">POAM</a>
         </div>
         <div className='nav__option'>
-          Logout
+        <a href="#">Logout</a>
         </div>
       </div>
     </div>

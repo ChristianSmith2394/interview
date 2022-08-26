@@ -3,14 +3,13 @@ import "./Selection.css";
 import { useState } from "react";
 
 function Selection() {
+  const [state, setState] = useState({
+    systemChosen: "",
+  });
 
-    const [state, setState] = useState({
-        systemChosen: "",
-    })
-
-    const handleChange = e => {
-        setState(e.target.value)
-      }
+  const handleChange = (e) => {
+    setState(e.target.value);
+  };
 
   return (
     <div className="system__form">
@@ -30,6 +29,7 @@ function Selection() {
           </select>
         </label>
       </form>
+      <button>Continue</button>
     </div>
   );
 }

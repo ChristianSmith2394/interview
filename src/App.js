@@ -5,7 +5,7 @@ import { Header, Footer, Sidebar, Selection } from "./Components";
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <div className="middle__content">
         <Sidebar />
         <Selection />
