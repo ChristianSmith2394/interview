@@ -1,10 +1,12 @@
 import React from 'react'
-import { Header, Footer, Navbar, Sidebar } from '../Components'
+import { Header, Footer, Sidebar } from '../Components'
 
 function Homepage() {
   return (
     <div>
         <Header />
+        {/* <Sidebar /> */}
+        <Footer />
     </div>
   )
 }
